@@ -1,0 +1,69 @@
+
+body {
+    background-size: cover;
+    height: 100vh;
+
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 1px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+* {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.menu li {
+    padding: 10px;
+    margin: 5px;
+    list-style: none
+}
+
+
+
+form {
+    max-width: 25rem;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    background-color: white;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+}
+
+.all {
+	width:330px;
+	height:30px;
+	margin:25px auto;
+	background-color:#d9dda9;
+	padding-left:10px;
+}
+.all li {
+	width:100px;
+	height:30px;
+	background-color:#d9dda9;
+	line-height:30px;
+	text-align:center;
+	float:left;
+	margin-right:10px;
+	display:inline;
+	position:relative;
+	cursor:pointer;
+}
+.all li:hover  {
+    background-color: #a3b8cc;
+}
+.all ul {
+	position:absolute;
+	left:0;
+	top:30px;
+	display:none;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title></title>
+<link href="nav-js.css" rel="stylesheet">
+<script type="text/javascript">
+    //显示子菜单
+    function showSubMenu(li){
+        var subMenu = li.getElementsByTagName("ul")[0];
+        subMenu.style.display = "block";
+    }
+
+    //隐藏子菜单
+    function hideSubMenu(li){
+        var subMenu = li.getElementsByTagName("ul")[0];
+        subMenu.style.display = "none";
+    }
+</script>
+</head>
+<body>
+    <ul id="navigation">
+        <li><a href="#">首页</a></li>
+        <li onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this)"><a href="#">我们的服务</a>
+            <ul>
+                <li><a href="#">服务一</a></li>
+                <li><a href="#">服务二</a></li>
+                <li><a href="#">服务三</a></li>
+                <li><a href="#">服务四</a></li>
+                <li><a href="#">服务五</a></li>
+            </ul>
+        </li>
+        <li onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this)"><a href="#">我们的团队</a>
+            <ul>
+                <li><a href="#">服务一</a></li>
+                <li><a href="#">服务二</a></li>
+                <li><a href="#">服务三</a></li>
+                <li><a href="#">服务四</a></li>
+                <li><a href="#">服务五</a></li>
+            </ul>
+        </li>
+        <li><a href="#">我们的方向</a></li>
+        <li><a href="#">关于我们</a></li>
+    </ul>
+</body>
+</html>

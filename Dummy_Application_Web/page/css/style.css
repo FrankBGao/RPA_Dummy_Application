@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    height: 100vh;
+
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 1px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    height: 40px;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #d9dda9;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main > li {
+    margin: 0 3%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    display: block;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+a:hover {
+    background-color: #a3b8cc;
+}
+
+.drop li {
+    opacity: 0;
+    transform-origin: top center;
+}
+
+.drop li a {
+    background-color: rgb(217, 221, 169);
+    padding: 10px 0;
+}
+.drop li a:hover  {
+    background-color: #a3b8cc;
+    padding: 10px 0;
+}
+/*------------- menu1 animation -------------------*/
+
+.main li:hover .menu1 li:first-of-type {
+    animation: menu1 0.3s ease-in-out forwards;
+}
+
+.main li:hover .menu1 li:nth-of-type(2) {
+    animation: menu1 0.3s ease-in-out forwards;
+}
+
+.main li:hover .menu1 li:nth-of-type(3) {
+    animation: menu1 0.3s ease-in-out forwards;
+}
+
+.main li:hover .menu1 li:last-of-type {
+    animation: menu1 0.3s ease-in-out forwards;
+}
+
+@keyframes menu1 {
+    from {
+        opacity: 0;
+        transform: translateX(30px) rotateY(90deg);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) rotateY(0);
+    }
+}
+
+/* my button style */
+.white-mode {
+    text-decoration: none;
+    padding: 7px 10px;
+    background-color: #122;
+    border-radius: 3px;
+    color: #fff;
+    transition: 0.35s ease-in-out;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-family: sans-serif;
+}
+
+.white-mode:hover {
+    background-color: #fff;
+    color: #122;
+}
+
+.menu li {
+    padding: 10px;
+    margin: 5px;
+    list-style: none
+}
+
+ul li input {
+    padding-right: 10px;
+}
+
+form {
+    max-width: 25rem;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    background-color: white;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+}
