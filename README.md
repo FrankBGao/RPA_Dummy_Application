@@ -6,3 +6,22 @@ This test is at 2018.11.30
 In this project, we adopted JAVA, .Net, and Web platforms to build three dummy applications.
  
 ![alt text](https://raw.githubusercontent.com/FrankBGao/RPA_Dummy_Application/master/pic/pic.png "screenshoot")
+
+In this three dummy applications, we add various components.
+In the test we use Uipath, Kyron, and WinAutoMation, and this test is at 2018.11.30.
+
+Firstly, we used these RPA product's recorded human behavior on these dummy applications.
+
+Secondly, we replayed theses behavior on dummy applications.
+
+Thirdly, we checked the RPA products' performance.
+
+In the test, we found that different platform has strong effects on RPA products' performance.
+
+Here is the result of recording
+![alt text](https://raw.githubusercontent.com/FrankBGao/RPA_Dummy_Application/master/pic/record.png "record")
+
+Here is the result of replaying
+![alt text](https://raw.githubusercontent.com/FrankBGao/RPA_Dummy_Application/master/pic/replay.png "replay")
+
+
