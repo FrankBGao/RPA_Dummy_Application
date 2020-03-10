@@ -18,10 +18,20 @@ Thirdly, we checked the RPA products' performance.
 
 In the test, we found that different platform has strong effects on RPA products' performance.
 
-Here is the result of recording
+Here is the result of recording.
+√ means no error. 
+
+"no" means unable to record.
+
+"partial" means some components is able to record, but some could not.
 ![alt text](https://raw.githubusercontent.com/FrankBGao/RPA_Dummy_Application/master/pic/record.png "record")
 
 Here is the result of replaying
+√ means no error. 
+
+"no" means unable to replay.
+
+"backdoor" means there is no mouse or keyboard event when RPA products work.
 ![alt text](https://raw.githubusercontent.com/FrankBGao/RPA_Dummy_Application/master/pic/replay.png "replay")
 
 
